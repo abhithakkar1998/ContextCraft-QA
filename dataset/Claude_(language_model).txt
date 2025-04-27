@@ -1,0 +1,3 @@
+Claude is a family of large language models developed by Anthropic. The first model was released in March 2023.
+The Claude 3 family, released in March 2024, consists of three models: Haiku, optimized for speed; Sonnet, which balances capability and performance; and Opus, designed for complex reasoning tasks. These models can process both text and images, with Claude 3 Opus demonstrating enhanced capabilities in areas like mathematics, programming, and logical reasoning compared to previous versions.
+

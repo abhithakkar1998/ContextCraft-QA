@@ -1,0 +1,2 @@
+A large language model (LLM) is a type of machine learning model designed for natural language processing tasks such as language generation. LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text.
+This page lists notable large language models.

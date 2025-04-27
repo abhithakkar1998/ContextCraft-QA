@@ -1,0 +1,270 @@
+In image processing, normalization is a process that changes the range of pixel intensity values. Applications include photographs with poor contrast due to glare, for example. Normalization is sometimes called contrast stretching or histogram stretching. In more general fields of data processing, such as digital signal processing, it is referred to as dynamic range expansion.
+The purpose of dynamic range expansion in the various applications is usually to bring the image, or other type of signal, into a range that is more familiar or normal to the senses, hence the term normalization. Often, the motivation is to achieve consistency in dynamic range for a set of data, signals, or images to avoid mental distraction or fatigue.  For example, a newspaper will strive to make all of the images in an issue share a similar range of grayscale.
+Normalization transforms an n-dimensional grayscale image 
+
+  
+    
+      
+        I
+        :
+        {
+        
+          X
+        
+        ⊆
+        
+          
+            R
+          
+          
+            n
+          
+        
+        }
+        →
+        {
+        
+          Min
+        
+        ,
+        .
+        .
+        ,
+        
+          Max
+        
+        }
+      
+    
+    {\displaystyle I:\{\mathbb {X} \subseteq \mathbb {R} ^{n}\}\rightarrow \{{\text{Min}},..,{\text{Max}}\}}
+  
+
+with intensity values in the range 
+  
+    
+      
+        (
+        
+          Min
+        
+        ,
+        
+          Max
+        
+        )
+      
+    
+    {\displaystyle ({\text{Min}},{\text{Max}})}
+  
+, into a new image 
+
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+        :
+        {
+        
+          X
+        
+        ⊆
+        
+          
+            R
+          
+          
+            n
+          
+        
+        }
+        →
+        {
+        
+          newMin
+        
+        ,
+        .
+        .
+        ,
+        
+          newMax
+        
+        }
+      
+    
+    {\displaystyle I_{N}:\{\mathbb {X} \subseteq \mathbb {R} ^{n}\}\rightarrow \{{\text{newMin}},..,{\text{newMax}}\}}
+  
+ 
+with intensity values in the range 
+  
+    
+      
+        (
+        
+          newMin
+        
+        ,
+        
+          newMax
+        
+        )
+      
+    
+    {\displaystyle ({\text{newMin}},{\text{newMax}})}
+  
+. 
+The linear normalization of a grayscale digital image is performed according to the formula
+
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+        =
+        (
+        I
+        −
+        
+          Min
+        
+        )
+        
+          
+            
+              
+                newMax
+              
+              −
+              
+                newMin
+              
+            
+            
+              
+                Max
+              
+              −
+              
+                Min
+              
+            
+          
+        
+        +
+        
+          newMin
+        
+      
+    
+    {\displaystyle I_{N}=(I-{\text{Min}}){\frac {{\text{newMax}}-{\text{newMin}}}{{\text{Max}}-{\text{Min}}}}+{\text{newMin}}}
+  
+
+For example, if the intensity range of the image is 50 to 180 and the desired range is 0 to 255 the process entails subtracting 50 from each of pixel intensity, making the range 0 to 130.  Then each pixel intensity is multiplied by 255/130, making the range 0 to 255. 
+Normalization might also be non linear, this happens when there isn't a linear relationship between 
+  
+    
+      
+        I
+      
+    
+    {\displaystyle I}
+  
+ and 
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+      
+    
+    {\displaystyle I_{N}}
+  
+. An example of non-linear normalization is when the normalization follows a sigmoid function, in that case, the normalized image is computed according to the formula
+
+  
+    
+      
+        
+          I
+          
+            N
+          
+        
+        =
+        (
+        
+          newMax
+        
+        −
+        
+          newMin
+        
+        )
+        
+          
+            1
+            
+              1
+              +
+              
+                e
+                
+                  −
+                  
+                    
+                      
+                        I
+                        −
+                        β
+                      
+                      α
+                    
+                  
+                
+              
+            
+          
+        
+        +
+        
+          newMin
+        
+      
+    
+    {\displaystyle I_{N}=({\text{newMax}}-{\text{newMin}}){\frac {1}{1+e^{-{\frac {I-\beta }{\alpha }}}}}+{\text{newMin}}}
+  
+
+Where 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ defines the width of the input intensity range, and 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ defines the intensity around which the range is centered. 
+Auto-normalization in image processing software typically normalizes to the full dynamic range of the number system specified in the image file format. 
+

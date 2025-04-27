@@ -1,0 +1,1 @@
+OpenAI o1 is a reflective generative pre-trained transformer (GPT). A preview of o1 was released by OpenAI on September 12, 2024. o1 spends time "thinking" before it answers, making it better at complex reasoning tasks, science and programming than GPT-4o. The full version was released to ChatGPT users on December 5, 2024.

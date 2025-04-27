@@ -1,0 +1,6 @@
+Video content analysis or video content analytics (VCA), also known as video analysis or video analytics (VA), is the capability of automatically analyzing video to detect and determine temporal and spatial events.
+This technical capability is used in a wide range of domains including entertainment, video retrieval and video browsing, health-care, retail, automotive, transport, home automation, flame and smoke detection, safety, and security. The algorithms can be implemented as software on general-purpose machines, or as hardware in specialized video processing units.
+Many different functionalities can be implemented in VCA. Video Motion Detection is one of the simpler forms where motion is detected with regard to a fixed background scene. More advanced functionalities include video tracking and egomotion estimation.
+Based on the internal representation that VCA generates in the machine, it is possible to build other functionalities, such as video summarization, identification, behavior analysis, or other forms of situation awareness.
+VCA relies on good input video, so it is often combined with video enhancement technologies such as video denoising, image stabilization, unsharp masking, and super-resolution.
+

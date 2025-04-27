@@ -1,0 +1,2 @@
+Quantum natural language processing (QNLP) is the application of quantum computing to natural language processing (NLP). It computes word embeddings as parameterised quantum circuits that can solve NLP tasks faster than any classical computer. It is inspired by categorical quantum mechanics and the DisCoCat framework, making use of string diagrams to translate from grammatical structure to quantum processes.
+

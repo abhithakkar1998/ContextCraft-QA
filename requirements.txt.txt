@@ -1,0 +1,14 @@
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+faiss-cpu
+datasets
+requests
+huggingface_hub
+fastapi
+uvicorn
+matplotlib
+plotly
+wikipedia

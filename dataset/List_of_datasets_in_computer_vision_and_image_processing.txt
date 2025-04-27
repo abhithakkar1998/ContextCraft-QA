@@ -1,0 +1,1 @@
+This is a list of datasets for machine learning research. It is part of the list of datasets for machine-learning research. These datasets consist primarily of images or videos for tasks such as object detection, facial recognition, and multi-label classification.

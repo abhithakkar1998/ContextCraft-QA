@@ -1,0 +1,1 @@
+NebulaGraph is a free software distributed graph database built for super large-scale graphs with milliseconds of latency. NebulaGraph adopts the Apache 2.0 license and  also  comes with a wide range of data visualization tools.

@@ -1,0 +1,3 @@
+The following outline is provided as an overview of and topical guide to natural-language processing:
+natural-language processing – computer activity in which computers are entailed to analyze, understand, alter, or generate natural language.  This includes the automation of any or all linguistic forms, activities, or methods of communication, such as conversation, correspondence, reading, written composition, dictation, publishing, translation, lip reading, and so on.  Natural-language processing is also the name of the branch of computer science, artificial intelligence, and linguistics concerned with enabling computers to engage in communication using natural language(s) in all forms, including but not limited to speech, print, writing, and signing.
+

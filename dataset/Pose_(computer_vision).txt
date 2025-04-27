@@ -1,0 +1,3 @@
+In the fields of computing and computer vision, pose (or spatial pose) represents the position and the orientation of an object, each usually in three dimensions. Poses are often stored internally as transformation matrices. The term “pose” is largely synonymous with the term “transform”, but a transform may often include scale, whereas pose does not.
+In computer vision, the pose of an object is often estimated from camera input by the process of pose estimation. This information can then be used, for example, to allow a robot to manipulate an object or to avoid moving into the object based on its perceived position and orientation in the environment. Other applications include skeletal action recognition.
+

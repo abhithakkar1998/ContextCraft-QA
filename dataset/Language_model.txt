@@ -1,0 +1,3 @@
+A language model is a model of natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation (generating more human-like text), optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.
+Large language models (LLMs), currently their most advanced form, are predominantly based on transformers trained on larger datasets (frequently using words scraped from the public internet). They have superseded recurrent neural network-based models, which had previously superseded the purely statistical models, such as word n-gram language model.
+
