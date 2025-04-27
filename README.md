@@ -22,11 +22,13 @@ This repository contains a basic question answering (QA) system that utilizes Se
 
 * **`get_wiki_data.ipynb`:** This Jupyter Notebook is responsible for fetching and preprocessing data from Wikipedia. It can be used to generate the text files used as the knowledge source for the QA system. You can modify the topics you need in this file.
 * **`contextcraft_qa.ipynb`:** This Jupyter Notebook contains the core logic of the question answering system. It handles document chunking, embedding generation, similarity search, and answer generation.
+* **`requirements.txt`:** Python libraries required for this project.
+* **`ContextCraft QA - Theoretical Concepts`:** Word document for some basic theoretical concepts involved in the project.
 
 ## Getting Started
 
 1.  Clone the repository.
-2.  Install the required libraries (see `requirements.txt` - create this file).
+2.  Install the required libraries (`pip install -r requirements.txt`).
 3.  Generate the necessary data text files by running the cells in `get_wiki_data.ipynb`. These files will be saved to the dataset/ directory.
 4.  Execute the cells in `contextcraft_qa.ipynb` to observe the RAG and LLM components.
 
