@@ -29,7 +29,7 @@ This repository contains a basic question answering (QA) system that utilizes Se
 
 1.  Clone the repository.
 2.  Install the required libraries (`pip install -r requirements.txt`).
-3.  Generate the necessary data text files by running the cells in `get_wiki_data.ipynb`. These files will be saved to the dataset/ directory.
+3.  Generate the necessary data text files by running the cells in `get_wiki_data.ipynb`. These files will be saved to the `dataset/` directory.
 4.  Execute the cells in `contextcraft_qa.ipynb` to observe the RAG and LLM components.
 
 ## Improvements and Future Work
