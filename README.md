@@ -2,7 +2,7 @@
 
 This repository contains a basic question answering (QA) system that utilizes Sentence Transformers for embedding generation, FAISS for similarity search, and GPT-2 for answer generation. We implement RAG by embedding text chunks and queries, retrieving the most similar chunks, and then prompting GPT-2 to answer based on that retrieved context.
 
-**⚠️ Important: This is a demonstration project with very simple data samples. The system's accuracy and coherence are limited by the small and basic dataset provided. Expect some repetition and potentially imperfect answers. ⚠️**
+**⚠️ Important: This demonstration project, designed for personal learning of the basic RAG (Retrieval-Augmented Generation) pipeline concept using Python. This repository includes simple data samples and aims to provide a hands-on educational experience. The system's accuracy and coherence are limited by the small and basic dataset provided. Expect some repetition and potentially imperfect answers. ⚠️**
 
 ## Features
 
